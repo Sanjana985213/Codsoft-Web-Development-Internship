@@ -1,0 +1,137 @@
+<!------HTML CODE--------/>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title> Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <h1>James Watson</h1>
+      <p>Web Developer | Full Stack Developer</p>
+    </header>
+
+    <section id="about">
+      <img src="https://quics.umd.edu/sites/quics.umd.edu/files//styles/medium/public/pictures/picture-594-1639189619.jpg?itok=H4mdv3S2" height="200px"alt="James Watson"> </img>
+    </section>
+
+    <section id="about1">
+      <h2>
+        I'm a passionate web developer and likely to create high-quality,user-friendly web experiences.
+      </h2>
+    </section>
+
+    <section id="Projects">
+      <h2>Projects</h2>
+      <div class="Project">
+         <h3>Project 1</h3>
+        <p>I had created a Event Webpage.</p>
+        <img src="https://immenseart.com/wp-content/uploads/2023/03/Eventor-Conference-Event-HTML-Template.jpg" height="200"  alt="Project 1"> </img>
+      </div>
+      <div class="project">
+        <h3>Project 2</h3>
+        <p>
+          I had developed a facebook home page.
+        </p>
+        <img src="https://www.hubspot.com/hs-fs/hubfs/Facebook%20Home.webp?width=970&height=1109&name=Facebook%20Home.webp" height="300" alt="Project 2"> </img>
+      </div>
+    </section>
+    <section id="resume">
+      <h2>Resume</h2>
+      <p><a href="resume.pdf" download> Download Resume (PDF)</a></p>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: jameswatson14@gmail.com</p>
+      <p>Phone: 7038910444</p>
+    </section>
+    <footer>
+      <p>&copy; 2024 James Watson. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
+
+<!---------------CSS CODE----------------/>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: rgb(198, 209, 216);
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    margin: 0;
+    color: blue;
+  }
+  header p{
+    color:aqua;
+  }
+  
+  #about1 {
+    text-align: center;
+    padding: 1px 0;
+  }
+  
+  #about {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  #about img {
+    width: 90px;
+    border-radius: 30%;
+  }
+  
+  #skills {
+    text-align: left;
+    padding: 10px 0;
+  }
+  
+  #skills ul {
+    list-style: none;
+  }
+  
+  #projects {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .project {
+    margin-bottom: 20px;
+  }
+  
+  .project img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  #resume,
+  #contact {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  #resume a {
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  <!------------END-------------------->
